@@ -77,7 +77,6 @@
           return;
         }
         if (list.length > 0) {
-          console.log(list)
           return list.slice(0, 3);
         }
       },
@@ -124,7 +123,7 @@
         padding-top: .05rem;
         img {
           .mx_flex_item(1.5);
-          border-radius: 7px;
+          .mx_bdrs(7px);
         }
         ul {
           .mx_flex_item(3);

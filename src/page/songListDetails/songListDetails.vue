@@ -3,7 +3,7 @@
     <!--推荐歌单详情头部开始-->
     <div class="header">
       <div class="header-title">
-        <i class="iconfont icon-left" @click="goIndex"></i> 歌单
+        <i class="iconfont icon-left" @click="goBack"></i> 歌单
         <i class="iconfont icon-music" @click="goSongDetails"></i>
       </div>
       <div class="header-contxt">
@@ -72,11 +72,9 @@
       }
     },
     methods: {
-      //返回首页
-      goIndex() {
-        this.$router.push({
-          name: 'recommend'
-        })
+      //返回
+      goBack() {
+        this.$router.go(-1);
       },
       //跳转当前歌曲页面
       goSongDetails() {

@@ -137,7 +137,7 @@
   #recommend {
     margin: 10px;
     .vux-slider{
-      border-radius: 7px;
+      .mx_bdrs(7px);
     }
     .list-item {
       position: relative;
@@ -160,7 +160,7 @@
         img {
           display: block;
           width: 100%;
-          border-radius: 7px;
+          .mx_bdrs(7px);
         }
         p {
           .mx_hlh(.3rem, .16rem);
