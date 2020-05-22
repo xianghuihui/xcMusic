@@ -1,24 +1,14 @@
-# 仿网易云音乐(webapp)
+## 仿网易云音乐(webapp)
 
-## 项目地址 (project address)
-
-
-[api来源](https://binaryify.github.io/NeteaseCloudMusicApi/#/)   感谢binaryify让我能用喜欢的东西做一个属于自己的播放器!  
-
-[源码地址](https://github.com/webfansplz/xcMusic)     不要脸的求star 哈哈哈!!!
-
-[项目预览](http://1mhere.cn)       1mhere.cn  (pc端按F12切换手机调试模式效果更佳!)
-
-![二维码](https://github.com/webfansplz/xcMusic/blob/master/static/ercode.png) (移动端可直接扫码)
-
+### 项目地址 (project address)
    
-## 技术栈 (technology)
+### 技术栈 (technology)
 
 ```
 vue2.0 + vuex + vue-router2.0 + es6 + axios + vux
 ```
 
-## 文件结构 (File structure)
+### 文件结构 (File structure)
 
 
 ```
@@ -75,22 +65,10 @@ vue2.0 + vuex + vue-router2.0 + es6 + axios + vux
 ![歌单](https://github.com/webfansplz/xcMusic/blob/master/static/list.gif)  
 
 
-## 项目运行(Probject running)
+### 项目运行(Probject running)
 
-1.克隆项目到本地 : git clone https://github.com/webfansplz/xcMusic.git  
+1.安装依赖环境 : npm install      
 
-2.安装依赖环境 : npm install      
+2.启动项目 : npm run dev        
 
-3.启动项目 : npm run dev        
-
-4.打包项目 : npm run build
-
-
-## 总结(summary)
-
-本项目始于本人兴趣,还有许多不足大家轻喷,欢迎大家一起交流讨论学习,喜欢的点个star呗,哈哈哈！
-
-## 须知(notice)
-    *** 怎么歌单打不开,音乐播放不了,作者耍我呢 ???(黑人问号)
-
-    老铁们见谅,由于网易云api部分接口有限制,频繁访问会导致功能失效,请稍后再试!!!
+3.打包项目 : npm run build
